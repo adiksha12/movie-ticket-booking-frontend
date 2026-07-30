@@ -33,7 +33,7 @@ function Register() {
   }
 };
 
-  return (
+  return (  
     <div className="container">
       <div className="card">
         <h2>Register</h2>
