@@ -6,11 +6,13 @@ function Header() {
 
   return (
     <div style={{
+      
       background: "#020617",
       padding: "15px",
       display: "flex",
-      justifyContent: "space-between",
+      justifyContent: "space-between", 
       alignItems: "center"
+
     }}>
       
       {/* 🎬 Logo */}
