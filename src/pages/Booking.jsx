@@ -14,7 +14,9 @@ function Booking() {
     if (selectedSeats.includes(seat)) {
       setSelectedSeats(selectedSeats.filter(s => s !== seat));
     } else {
+    
       setSelectedSeats([...selectedSeats, seat]);
+      
     }
   };
 
